@@ -41,6 +41,7 @@ coverage/
 
 # ESLint
 .eslintcache
+eslint.config.js
 
 # Temporary files
 *.tmp
