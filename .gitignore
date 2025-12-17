@@ -1,9 +1,27 @@
 # Dependencies
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager lock files (optional - see note below)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
 
 # Environment variables
 .env
 .env.local
+.env.*.local
 
 # IDE
 .vscode/
@@ -17,5 +35,15 @@ Thumbs.db
 *.log
 logs/
 
+# Testing
+coverage/
+.nyc_output/
+
 # ESLint
 .eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
